@@ -1,0 +1,6 @@
+@media only screen
+and (max-width:1300px){
+  #header_area nav{left: 152px;}
+  main img{left: 100px;}
+  .btm1_left{max-width: 60%;}
+}

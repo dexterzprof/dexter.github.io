@@ -1,0 +1,120 @@
+/*Fonts Used*/
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+@font-face {
+    font-family: 'Statendam W00 Regular';
+    src: url('fonts/Statendam/Statendam W00 Regular.ttf') format('truetype');
+}
+
+
+*, *:before, *:after { box-sizing: border-box; -moz-box-sizing: border-box; image-rendering: -webkit-optimize-contrast;}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline; -webkit-text-size-adjust: 100%;}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+button, html input[type=button], input[type=reset], input[type=submit] { -webkit-appearance: button; cursor: pointer; }
+input, textarea, select{-webkit-appearance: none;}
+mark {background-color: transparent;}
+/* end reset */
+
+/*preset*/
+body{font-size: 18px; line-height: 28px; font-family: 'Questrial', sans-serif; color:#333;position:relative;width: 100%;max-width: 1920px;margin: 0 auto;overflow-x: hidden;}
+body.active{overflow: hidden;width:100%;height:100%;position:fixed!important;}
+a{ text-decoration:none; -webkit-transition: all .3s linear;transition: all .3s linear;color: inherit;}
+img{max-width: 100%; vertical-align: top; image-rendering: -webkit-optimize-contrast;}
+textarea { resize:vertical; }
+iframe{ border: none; width: 100%;}
+ul, h1, h2, h3, h4{ margin:0; padding:0; list-style:none; }
+strong , b{ font-weight: bold;}
+em, i{font-style: italic;}
+input[type="submit"]{cursor: pointer;}
+a[href^="tel:"]{color: inherit!important; text-decoration: none;}
+
+.clearfix:before, .clearfix:after { content:""; display: table; clear: both; }
+.clearfix {clear: both; overflow: hidden;}
+.comp{color:#000; font-weight:bold;}
+.comingsoon{color:red; font-style:italic; font-weight:bold;}
+.col2{-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-gap: 20px; -moz-column-gap: 20px;  column-gap: 20px;}
+.col3{-webkit-column-count: 3; -moz-column-count: 3; column-count: 3; -webkit-column-gap: 10px; -moz-column-gap: 10px;  column-gap: 10px;}
+.col2 li, .col3 li{overflow: hidden; display: inline-block; width: 100%;}
+.main_phone {font-weight: bold;}
+
+.back_top{display:none;background:#000;position: fixed; z-index:999;bottom:0;width: 100%;height: 45px;cursor:pointer; border-top: 2px solid #fff;}
+.back_top:before{content:"";position:absolute;top:45%;left:50%;transform:translate(-50%,-45%);border-bottom:15px solid #fff;border-left:10px solid transparent;border-right:10px solid transparent;}
+.back_top:hover{opacity:.7}
+#wpadminbar {position: fixed !important;}
+
+/*Heading for SEO*/
+.h1_hdng{font-size: 22px; font-weight: 700; color: #000;}
+
+/*Thumbnail Images*/
+.thumb_left_dd, .thumb_left_dr{  float:left; margin:-4px 19px 0 0;}
+.thumb_right_dd, .thumb_right_dr{ float:right; margin:-4px 0 0 19px;}
+.thumb_center_dd, .thumb_center_dr{ display: block; margin: 10px auto;}
+
+/* Text Alignment */
+.text_left, .text_left p{text-align: left;}
+.text_right, .text_right p{text-align: right;}
+.text_center,.text_center p{text-align: center; display: block;}
+
+/* Forms Presets */
+::-webkit-input-placeholder {opacity: 1; color: inherit;}
+::-moz-placeholder {opacity: 1; color: inherit;}
+:-ms-input-placeholder {opacity: 1; color: inherit;}
+:-moz-placeholder {opacity: 1; color: inherit;}
+
+/*end preset*/
+.wrapper{ width:100%; max-width:1080px; margin:0 auto; position:relative;}
+
+
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.hdr-info a {
+    display: block;
+    color: #fff;
+    padding-left: 40px;
+}
+
+.hdr-info {
+    display: inline-block;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    background: #09096e;
+    right: -32px;
+}
+
+.nav {
+    display: inline-block;
+    position: relative;
+    top: 45px;
+    padding: 0 10px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 389px;
+    height: 86px;
+    display: inline-block;
+}
+
+header {
+    min-height: 120px;
+}
+
+ul.hdr_mail {
+    min-height: 120px;
+}
